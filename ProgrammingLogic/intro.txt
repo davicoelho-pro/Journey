@@ -1,0 +1,4 @@
+Muitas ideias em programação de computadores são comuns à todas(ou quase todas) linguagens de programação. 
+Cada tópico será explicado separadamente, de uma forma fácil de compreender. 
+
+O conjunto dos tópicos apresentados nessas anotações são chamados de lógica de programação!

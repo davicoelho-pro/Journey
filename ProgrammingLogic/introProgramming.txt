@@ -1,0 +1,51 @@
+"programar" é informar ao computador o que você quer que ele faça. 
+Ser bom em "programar" nada mais é do que ter facilidade em expressar ideias em formato de código de computador, e portanto, 
+fazer o computador realizar sua vontade.
+
+=====
+
+Para realmente aprender programação, é necessário aprender os conceitos fundamentais antes. 
+Não importa a linguagem de programação, muitos conceitos são iguais ou extremamente similares.
+
+Os 5 primeiros conceitos(seguindo o w3schools) serão:
+
+    - Variáveis
+    - Declarações condicionais
+    - Arrays
+    - Repetições
+    - Funções
+
+    Após esses tópícos, é necessário um entendimento de lógica booleana, tipos de dados e operadores.
+
+=====
+
+Linguagem de programação:
+
+    Uma linguagem de programação é o meio que utilizamos para conversar com o computador, e mandá-lo
+    realizar nossas vontades. Ela nada mais é do que uma ferramenta que utilizamos para manipular o 
+    computador. Cada linguagem de programação funciona bem para alguma tarefa computacional específica,
+    porém, não para tudo. Por exemplo, JavaScript é excelente para a Web, Python para dados e IA, C/C++ para
+    programação mais voltada para microcontroladores, etc. Pense em cada linguagem de programação como 
+    as ferramentas tradicionais(martelos, chaves de fenda, etc...): É possível furar a parede com um martelo,
+    porém, não significa que ele irá fazer um bom trabalho. Da mesma forma, é possível programar micro-
+    controladores em JavaScript. Porém, não significa que será uma boa ideia.
+
+    O que muda de uma linguagem para outra costuma ser apenas o método de escrita. Todos os conceitos 
+    fundamentais da lógica de programação são os mesmos. Isso significa que um loop representa a mesma 
+    coisa em javascript, em Python, em C/C++, etc. O que varia é o método de escrita. 
+
+    Observe um loop que printa 5 números escrito em Python e em JavaScript:
+
+    JavaScript:
+
+        for(let i=1; i<=5; i++) {
+            console.log(i);
+        }
+
+    Python:
+
+        for i in range(1, 6):
+            print(i)
+
+    No caso, a ideia centra é a mesma. As peculiaridades de cada linguagem mudam de acordo com a sintaxe, ou seja,
+    o conjunto de regras que devem ser seguidas na linguagem para que o que está sendo escrito faça sentido.

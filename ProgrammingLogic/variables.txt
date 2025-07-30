@@ -1,0 +1,65 @@
+Variáveis:
+
+    O que é uma variável?
+
+        Uma variável nada mais é do que um local que se reserva na memória do computador para guardar algum dado importante para o programa.
+        Uma variável tem um nome e um valor. Esse nome é utilizado para indicar a variável em questão, e/ou para acessar o 
+        valor contido nela. Pense em uma variável como uma caixa com uma etiqueta: Essa etiqueta dá nome à caixa, e dentro 
+        da caixa há algum conteúdo(ou está vazia!).
+
+        Eis como se cria uma variável em JavaScript ou em Python:
+
+            Python: 
+
+                x = 3.14
+
+            JavaScript:
+
+                let x = 3.14;
+
+            (de novo: note que o código faz a mesma coisa, porém, com uma escrita diferente)
+
+        A partir dos dois exemplos dados acima, eu agora sei que "x" representa o valor 3.14 e posso manipulá-lo conforme 
+        for necessário no programa. Em ambos os códigos, eu criei uma variável de nome "x" que carrega o valor numérico 3.14.
+
+        (variáveis conseguem guardar diferentes tipos de dados, como números, letras, palavras, frases, valores falsos ou 
+        verdadeiros, etc...)
+
+        (na maioria das linguagens de programação eu adiciono um valor à uma variável através do operador "=")
+
+
+
+    O que eu posso fazer com uma variável?
+
+        Variáveis são úteis para manipular dados importantes para um programa. Por exemplo, imagine que estamos programando
+        uma calculadora, em que os números serão digitados pelo usuário. Como iremos guardar tais números, se não for através
+        de variáveis? Em um exemplo mais complexo, quando estamos criando um sistema na web em que o usuário consegue se 
+        registrar, como realizaremos ações com seu nome de usuário, email ou senha, se não tivermos tais dados guardados em
+        variáveis na memória? As coisas ficariam muito difíceis e complexas demais.
+
+        Declarando uma variável numérica, eu posso realizar operações matemáticas:
+
+            let x = 1;
+            let y = 2;
+            console.log(x + y);
+
+        Declarando uma variável que contém uma letra, eu posso juntar essa letra à uma outra frase/palavra:
+
+            let letra = "a";
+            let nome = "Li";
+            console.log(nome + letra);
+
+        Eu posso também guardar o estado de um ponto específico do programa e reagir de acordo com esse estado:
+
+            let x = 3.14;
+            if(x > 1) {
+                console.log("Reacting to a state...");
+            } else {
+                console.log("Reacting in another way...");
+            }
+
+        Enfim... há centenas de formas de utilizar variáveis em um programa. Tudo depende do contexto.
+ 
+        (quando utilizamos variáveis, existem padrões de nomeação que devem ser seguidos. Por exemplo, em uma linguagem de 
+        programação normalmente não é possível criar variáveis começando com números. Da mesma forma, nomes de variáveis não
+        podem conter espaços em brancos. Ou seja, existem regras para o uso de variáveis!)
