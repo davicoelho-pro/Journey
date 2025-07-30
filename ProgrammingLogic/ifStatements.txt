@@ -1,0 +1,46 @@
+Declarações condicionais:
+
+    As declarações condicionais dentro de programas de computadores permitem algo fundamental: A tomada de decisões.
+    Condicionais são a forma de o programador indicar ao computador algo como: "Se algo acontecer, faça isso. Senão
+    faça aquilo."
+
+    Como é possível perceber rapidamente, condicionais são extremamente importantes para criar programas dinâmicos e 
+    responsivos. Por exemplo, o quão chato seria um jogo que não aparecesse a mensagem "Game Over" quando o total de 
+    vidas fosse a zero? Isso só é possível através da condicional.
+
+    Podemos representar uma condicional da seguinte forma: Imagine que queremos sair amanhã para dar uma volta. 
+    Se estiver chovendo, levaremos o guarda-chuvas. Se estiver um dia limpo não levaremos o guarda-chuvas. É 
+    perfeitamente possível representar essa lógica em código computacional graças às condicionais!
+
+    Eis uma representação de uma condicional em JavaScript:
+
+        let x = 5;
+        if(x > 0) {
+            console.log("the variable x is positive...");
+        } else {
+            console.log("the variable x is not positive...");
+        }
+
+    No código acima primeiro criamos uma variável(para que o programa tenha um dado na qual manipular), para então
+    realizar ações baseando-se nela. Caso a variável seja maior que 0, uma mensagem na tela específica irá aparecer.
+    Do contrário, uma outra mensagem irá aparecer. Note que o programa irá reagir à um estado do programa que pode 
+    ser alterado de acordo com a variável em questão. 
+
+    Agora observe o mesmo programa escrito em Python:
+
+        x = 5
+        if x > 0:
+            print("the variable x is positive...")
+        else:
+            print("the variable x is not positive...")
+
+    Mais uma vez, vemos um programa que faz a mesma coisa, escrito de formas diferentes por causa de cada linguagem.
+
+    =====
+
+    Quando eu devo utilizar condicionais?
+
+        Toda vez que queremos que o nosso programa reaja ao usuário, muito provavelmente será utilizado a condicional.
+        Por exemplo, se quisermos mostrar uma frase de boas-vindas ao usuário na tela quando ele digita a senha certa,
+        deve-se ter uma condicional para quando ele digite a senha errada. Dessa forma, conseguimos construir programas
+        responsivos e dinâmicos.

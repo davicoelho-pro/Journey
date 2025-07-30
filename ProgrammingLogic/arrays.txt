@@ -1,0 +1,51 @@
+Arrays:
+
+    Vimos que variáveis são formas de guardar dados em memória para que o programa consiga manipulá-los. Mas 
+    e quando temos vários dados relacionados no programa? Como podemos agrupar essas variáveis sem que haja
+    algum tipo de confusão? Fazemos isso com arrays.
+
+    Um array nada mais é do que uma coleção de valores. Esses valores, normalmente, estão relacionados entre si.
+    Por exemplo, se estamos criando um programa para listar os items de compra de uma ida ao supermercado, podemos
+    alocar todos os items em um array só, ao invés de criar uma variável para cada item.
+
+    Utilizando array:
+
+        let items = ["alho", "cebola", "molho de tomate", "macarrão", "carne moída"];
+
+    Sem array:
+
+        let n1 = "alho";
+        let n2 = "cebola";
+        let n3 = "molho de tomate";
+        let n4 = "macarrão";
+        let n5 = "carne moída";
+
+    Perceba que no primeiro exemplo, todos os items da lista estão alocados dentro de uma única variável: "items".
+    Já no segundo exemplo, criamos uma variável para cada item. Isso não é ideal, já que todas as variáveis estão
+    relacionadas entre si. Não que esteja errado, mas se há a possibilidade de facilitar/simplificar o serviço, em 
+    programação isso é bastante valioso...
+
+    O nome do array irá ser utilizado como o nome da variável padrão que já conhecemos. Nesse caso, o nome do array é 
+    "items". Cada item dentro do array items contém algo chamado índice, que começa de zero. É possível acessar cada 
+    item do array diretamente através do seu índice. Primeiro item, índice zero. Segundo item, índice um. Terceiro item,
+    índice dois, etc...
+
+    =====
+
+    Arrays são, talvez, uma das estrutura mais fundamentais da computação. Utilizando arrays conseguimos organizar 
+    melhor o código, melhorar a legibilidade, organizar dados relacionados em um local só, utilizar os dados diretamente
+    através do índice, adicionar e remover elementos do array em questão, etc.
+
+    Arrays também são muito utilizados como estruturas de iteração, ou seja, quando queremos uma estrutura para passar 
+    por cada elemento para realizar alguma tarefa com eles. Isso é feito através de estruturas de repetição.
+
+    Arrays se comportam de maneira diferente em cada linguagem. Por exemplo, em Python ou em JavaScript, arrays são 
+    mais dinâmicos. Eles crescem/encolhem de forma automática de acordo com a necessidade do programa. Já em outras 
+    linguagens, arrays são mais estáticos, ou seja, uma vez definido seu tamanho não há a possibilidade de alteração.
+
+    Também há diferença entre tipos de dados possíveis em um array. Em JavaScript/Python um array pode conter qualquer
+    tipo de dado. Já em linguagens mais restritas, um array pode conter apenas um tipo de dado por array.
+
+    Em resumo, um array pode ser utilizado de forma mais dinâmica como também de forma mais restrita. Arrays restritos
+    te dão o controle sobre toda a operação, de tal forma que aumenta a performance do programa. Porém, são mais 
+    difíceis de realizar algumas tarefas. 
