@@ -1,0 +1,40 @@
+Bits:
+
+    Um bit é a menor representação de um dado possível em um computador. 
+    Um bit pode ser apenas 1 ou 0, normalmente sendo atribuído o sentido de "ligado/desligado" e 
+    "verdadeiro/falso" e não dos números um e zero.
+
+    Isso é útil porque, fisicamente em um computador quando está passando corrente pelo circuito, 
+    pode-se interpretar como o bit 1. Quando não há corrente elétrica no circuito, interpreta-se 
+    como o bit 0.
+
+    =====
+
+Bytes:
+
+    Um bit não é muito útil por si só. Combinações de bits são extremamente úteis, já que podem
+    ser traduzidos em dados mais complexos. Uma combinação de 8 bits é famosamente conhecida como
+    byte.
+
+    Um byte pode ser qualquer combinação de 8 bits, ou seja:
+
+        11111100
+        10101010
+        00111001
+
+        etc...
+
+    Como cada bit pode ter apenas dois estados, temos 2⁸ possibilidades, ou seja, 256 combinações possíveis 
+    em um byte.
+
+    Utilizando apenas um byte podemos representar:
+
+        - um pixel em uma imagem, representando uma entre 256 cores.
+        - um número sem sinal de 0 a 255.
+        - um número com sinal de -128 a 127.
+        - um caracter de uma tabela mapeada(ASCII/Unicode)
+
+    (porém os computadores de hoje em dia utilizam mais que um byte para representar informações)
+
+
+
