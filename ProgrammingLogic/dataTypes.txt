@@ -1,0 +1,22 @@
+Tipos de dados:
+
+    Quando lidamos com programação e programas, estamos lidando com tipos de dados diferentes a todos os momentos.
+
+    No caso, tipos de dados nada mais são do que os tipos de dados que são manipulados em programas. Por exemplo,
+    temos tipos de dados numéricos, textuais, booleanos e diversos outros, onde cada um representa uma categoria.
+    Cada categoria define comportamento aos dados. Não é possível realizar soma numérica com dois dados textuais,
+    da mesma forma que não é possível identificar quantos caracteres existem em um dado numérico. As categorias
+    de dados(tipos de dados) servem para definir comportamentos pré-definidos em cima dos dados, dando estrutura
+    aos programas.
+
+    Em outras palavras: O tipo de dado de um dado define o que é possível realizar com ele ou não.
+
+    =====
+
+    Os tipos de dados variam bastante de linguagem para linguagem. Algumas linguagens possuem mais tipos de dados
+    do que outros, e inclusive tipos de dados diferentes. Além disso, em algumas linguagens é necessário especificar
+    no código o tipo de dado da variável antes de utilizá-la. Essas são as chamadas linguages de tipo estático.
+
+    =====
+
+

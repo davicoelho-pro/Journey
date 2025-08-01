@@ -1,0 +1,40 @@
+Loops:
+
+    Como mencionamos em 'structures.txt' os loops são pedaços de código que irão se repetir enquanto uma condição
+    for verdadeira. 
+
+    Por exemplo, se construímos uma aplicação que espera por uma entrada de dados do usuário, o programa deve entrar 
+    em loop até que o usuário realize a ação. Do contrário, não seria possível receber o input. Loops são extremamente
+    úteis para criar programas dinâmicos e responsivos!
+
+    Além disso, loops também são bastante importantes quando precisamos iterar sobre estruturas de dados. Imagine, por
+    exemplo, que seja necessário procurar por um usuário em uma base de dados para alterar o seu cadastro. Isso só é 
+    possível através do loop. Do contrário teríamos que procurar manualmente entrada por entrada até encontrar o tal 
+    usuário em questão. Com loops, podemos definir um código com uma condição para identificar o usuário desejado, 
+    automatizando a tarefa.
+
+    Existem muitos tipos de loops diferentes, que variam de linguagem para linguagem. No geral, temos 4 tipos de loops:
+
+        Loop while:
+            Um código é executado enquanto uma condição é verdadeira.
+            (mais utilizado quando não sabemos o número de iterações desejadas)
+
+        Loop for:
+            O código é executado enquanto uma condição for verdadeira, utilizando um contador e uma variável de controle.
+            (mais utilizado quando sabemos exatamente o número de iterações necessárias)
+
+        Loop for-each:
+            Um código é executado em cima de cada elemento de uma estrutura de dados.
+            (mais utilizado para iterar sobre uma estrutura de dados)
+
+        Loop do-while:
+            Um código é executado enquanto uma condição é verdadeira, porém é executado pelo menos uma vez independente da condição.
+            (mais utilizado quando queremos que um código seja executado independente de se a condição do loop é verdadeira ou falsa)
+
+
+
+
+    Loops também são bastante utilizados de forma aninhada, ou seja, loops dentro de loops. Isso permite coisas mais complexas
+    como lidar com tabelas ou registros de bancos de dados de forma mais facilitada.
+
+        

@@ -1,0 +1,31 @@
+Funções:
+
+    As funções são, provavelmente, a estrutura mais útil e mais utilizada de todas.
+    Elas permitem uma maior organização do código, melhorando a leitura e entendimento de todo o código fonte.
+
+    As funções são mais utilizadas para definir partes de interesse no código, de forma mais separada e possibilitando
+    a "chamada" dessa parte em qualquer local do código. Por exemplo, imagine que temos um programa tradicional de 
+    calculadora. Nesse programa, teremos uma lógica de processamento dos dados, ou seja, o usuário em algum momento
+    irá fornecer ao programa dados para que sejam processados e então retornado ao usuário em forma do resultado.
+    Essa lógica de processamento pode ser posta em apenas uma função, em um local do código, facilitando o entendimento
+    geral do código, sua legibilidade, entre outras coisas.
+
+    Um outro exemplo é em um sistema web mais complexo. Digamos que temos um sistema em que o usuário pode se cadastrar
+    e logar no sistema como o usuário cadastrado. Podemos definir uma função que, quando o usuário clica em logar, irá 
+    realizar o trabalho de verificar se aquele usuário realmente está no sistema ou não. Ao invés de codificar essa
+    lógica toda vez em que ela seja necessária no código, podemos codificar em um local(na função) e chama-la quando
+    necessário. Essa é a maior utilidade da função.
+
+    =====
+
+    De forma um pouco mais técnica, a função representa um código que pode receber dados ou não, e realizar algum 
+    trabalho para o próprio programa. De certa forma ela pode ser entendida como um mini-programa dentro do programa.
+
+    Por exemplo, em um programa científico talvez seja necessário criar um código que converte fahrenheit para celsius
+    e vice-versa. Isso pode ser feito criando uma função que recebe os dados em fahrenheit ou em celsius e os converte
+    de acordo, fornecendo o resultado correto. Dessa forma temos um mini-programa que realiza conversões de temperaturas
+    dentro de um programa maior.
+
+    =====
+
+    

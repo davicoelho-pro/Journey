@@ -1,0 +1,38 @@
+Operadores:
+
+    Quando lidamos com programação, com frequência queremos realizar ações em cima de dados por algum motivo. 
+    Isso só é possível com operadores. Ou seja, operadores são símbolos ou palavras-chave(palavras que pertencem à sintaxe
+    da linguagem) que realizam algumas operações em cima de dados. Por exemplo, temos operadores aritméticos, atribuidores,
+    de comparação, lógicos e bitwise.
+
+    =====
+
+    Operadores aritméticos:
+
+        Operadores aritméticos nos permitem realizar operações matemáticas em cima de dados. Podemos por exemplo somar
+        dois dados numéricos, subtrair, dividir, multiplicar, encontrar restos de divisão, etc. Algumas linguagens possuem
+        mais operadores aritméticos e outras menos. Porém, todas possuem um conjunto de operadores aritméticos que realizam
+        operações básicas de matemática.
+
+
+    Operadores de atribuição:
+        
+        Operadores de atribuição são operadores que alocam valores à variáveis. Normalmente esses operadores envolvem o 
+        operador principal de atribuição: o sinal de igual(=). Com esse operador podemos manipular/criar variáveis, entre
+        outras coisas.
+
+
+    Operadores de comparação:
+
+        Com frequência, em programas, precisamos comparar dados para realizar alguma tarefa. Por exemplo, se a idade do 
+        usuário for abaixo de 18 anos, há apenas um conjunto definido de ações disponíveis. Se for acima de 18 anos, um outro
+        conjunto de ações ficam disponíveis. Esse tipo de situação só é possível com operadores de comparação.
+
+
+    Operadores lógicos:
+
+        Os operadores lógicos permitem realizar comparações lógicas. Essas comparações são úteis quando lidamos com situações
+        como "se essa condição for verdadeira E essa outra também for, então faça isso". Normalmente envolvem a comparação 
+        lógica entre um ou mais dados, de forma a se formar uma situação de lógica booleana.
+
+

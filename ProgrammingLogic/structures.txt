@@ -1,0 +1,13 @@
+É muito comum em código de computador lidar com estruturas. Cada estrutura possui sua própria lógica e representam 
+coisas diferentes no próprio código. Pense em estruturas como objetos dentro do código.
+
+Por exemplo, temos estruturas que representam condicionais, loops, algum pedaço de código que queremos reutilizar(função), 
+classes, etc. Todas essas estruturas funcionam e representam coisas específicas dentro do código, além de possuírem sua própria
+lógica de escrita e funcionamento.
+
+Quando definimos uma condicional dentro do código, estamos criando uma estrutura que representa como o computador irá agir a partir
+de certos casos. Já quando criamos um loop, definimos um código que irá se repetir enquanto uma condição ou algo acontecer. Quando
+criamos uma classe, definimos comportamento e dados de objetos que derivam daquela classe, e por aí vai.
+
+O ponto é que é importante entender que código de computador sempre possui estruturas. Cada estrutura faz/representa algo diferente 
+e tem o seu próprio propósito dentro do código. 
